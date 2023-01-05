@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug lsp-swift",
+            "program": "${workspaceFolder:lsp-swift}/.build/debug/lsp-swift",
+            "args": [],
+            "cwd": "${workspaceFolder:lsp-swift}",
+            "preLaunchTask": "swift: Build Debug lsp-swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release lsp-swift",
+            "program": "${workspaceFolder:lsp-swift}/.build/release/lsp-swift",
+            "args": [],
+            "cwd": "${workspaceFolder:lsp-swift}",
+            "preLaunchTask": "swift: Build Release lsp-swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug liskov-substitution-principle",
+            "program": "${workspaceFolder:lsp-swift}/.build/debug/liskov-substitution-principle",
+            "args": [],
+            "cwd": "${workspaceFolder:lsp-swift}",
+            "preLaunchTask": "swift: Build Debug liskov-substitution-principle"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release liskov-substitution-principle",
+            "program": "${workspaceFolder:lsp-swift}/.build/release/liskov-substitution-principle",
+            "args": [],
+            "cwd": "${workspaceFolder:lsp-swift}",
+            "preLaunchTask": "swift: Build Release liskov-substitution-principle"
+        }
+    ]
+}
